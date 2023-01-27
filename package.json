@@ -1,0 +1,24 @@
+{
+  "name": "useethereum.js",
+  "version": "0.1.0",
+  "description": "Package to interact with wallets, smart contracts and accounts on EVM-compatible blockchains.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "docs": "npx typedoc src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typedoc": "^0.23.24",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2"
+  }
+}
